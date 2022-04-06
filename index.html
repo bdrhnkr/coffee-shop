@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anasayfa</title>
+
+	<!-- Sosyal Medya İkonları -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- Yazı Fontu -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+	<!--  SLİDER    -    OWL CAROUSEL    -->
+	<link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owl-carousel/assets/owl.theme.default.min.css">
+	<!-- Bu dosyayı CDN ile çektim -->
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+	<script src="owl-carousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script> <!-- Bu dosyayı kendim oluşturdum owl-carousel için gerekli -->
+
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Michealsnik.github.io   nesne kaydırma -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- https://michalsnik.github.io/aos/ -->
+	<!-- data-aos="zoom-out" -->
+</head>
+<body>	
+	<div class="header">
+		<div class="headerici">
+			<a href=""class="logo" id="logooo"><img src="img/logo.jpeg" alt=""></a>
+			<nav class="header_menu">
+				<ul>
+					<li><a href="">Anasayfa</a></li>
+					<li><a href="">Hikayemiz</a></li>
+					<li><a href="">Ürünler</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">İletişim</a></li>
+					<li id="siparis"><a href="">Sipariş</a></li>
+				</ul>
+			</nav>
+			<nav class="social">
+				<a href=""><i class="fab fa-instagram"></i></a>
+				<a href=""><i class="fab fa-facebook"></i></a>
+				<a href=""><i class="fab fa-twitter"></i></a>
+				<a href=""><i class="fab fa-youtube"></i></a>
+			</nav>
+			<button class="mobilmenu" onclick="gizleGoster()"><i class="fa fa-bars"></i></button>
+			
+		</div>
+	</div>
+
+
+	<div class="container">
+		<video src="img/baslangic.mp4" muted loop autoplay></video>
+		<h1>"DAMAK ZEVKİNİZE UYGUN KAHVE"</h1>
+	</div>
+
+	
+	<div class="iki">
+		<span data-aos="fade-down"
+		data-aos-easing="linear"
+		data-aos-duration="500"><br>MARKA ADINIZ</span><br><br>
+		<div class="resimler">
+			<img 
+			class="ikiresim" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="300"
+			src="img/telefon1.png" alt="">
+
+			<img
+			class="arrows1" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="1200"
+			src="img/arrow1.png" alt="">
+
+			<img 
+			class="ikiresim" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="500"
+			src="img/agac1.png" alt="">
+
+			<img 
+			class="arrows2" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="1500"
+			src="img/arrow2.png" alt="">
+
+			<img 
+			class="ikiresim" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="700"
+			src="img/cuval1-min.png" alt="">
+
+			<img 
+			class="arrows1" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="1700"
+			src="img/arrow1.png" alt="">
+
+			<img 
+			class="ikiresim" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="900"
+			src="img/ogutucu2.png" alt="">
+
+			<img 
+			class="arrows2" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="1900"
+			src="img/arrow2.png" alt="">
+
+			<img 
+			id="paketresim" 
+			class="ikiresim" 
+			data-aos="fade-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="1100"
+			src="img/package.png" alt="" id="package">
+		</div>
+	</div>
+
+	<div class="uc">
+		<div class="uc_resim" ><img src="img/ucresim1.jpg" alt=""></div>
+		<div class="uc_yazi" >
+			<h1>Nasıl Başladık?</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+				Totam exercitationem, alias quod, asperiores libero distinctio 
+				minus in facilis porro, labore quia esse tenetur illo inventore 
+				itaque a laboriosam voluptatibus accusantium?sit amet consectetur adipisicing elit. 
+				Totam exercitationem, alias quod. tationem, alias quod, asperiores libero distinctio 
+				minus in facilis porro, labore quia esse tenetur .
+			</p><br>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+				Totam exercitationem, alias quod, asperiores libero distinctio 
+				minus in facilis porro, labore quia esse tenetur illo inventore 
+				itaque a laboriosam voluptatibus accusantium? sit amet consectetur adipisicing elit. 
+			Totam exercitationem, alias quod</p>
+		</div>
+	</div>
+
+	<div class="dortarkaplan">
+		<div class="bes" >
+			<div data-aos="fade-in"data-aos-delay="300">
+				<div class="owl-carousel owl-theme besim">			
+					<div class="kart"><a href=""><img class="ust_resim" src="img/cekirdekler1.png" alt="">
+						<img class="alt_resim" src="img/kart1.png"></a><br>
+						<h3 class="kart_ad">TÜRK KAHVESİ</h3>
+					</div>
+					<div class="kart"><a href=""><img class="ust_resim" src="img/cekirdekler1.png" alt="">
+						<img class="alt_resim" src="img/kart2.png"></a><br>
+						<h3 class="kart_ad">KAKULELİ TÜRK KAHVESİ</h3>
+					</div>
+					<div class="kart"><a href=""><img class="ust_resim" src="img/cekirdekler1.png" alt="">
+						<img class="alt_resim" src="img/kart3.png"></a><br>
+						<h3 class="kart_ad">SPECIAL DİBEK KAHVESİ</h3>
+					</div>
+					<div class="kart"><a href=""><img class="ust_resim" src="img/cekirdekler1.png" alt="">
+						<img class="alt_resim" src="img/kart1.png"></a><br>
+						<h3 class="kart_ad">TÜRK KAHVESİ</h3>
+					</div>
+					<div class="kart"><a href=""><img class="ust_resim" src="img/cekirdekler1.png" alt="">
+						<img class="alt_resim" src="img/kart2.png"></a><br>
+						<h3 class="kart_ad">KAKULELİ TÜRK KAHVESİ</h3>
+					</div>
+					<div class="kart"><a href=""><img class="ust_resim" src="img/cekirdekler1.png" alt="">
+						<img class="alt_resim" src="img/kart3.png"></a><br>
+						<h3 class="kart_ad">SPECIAL DİBEK KAHVESİ</h3>
+					</div>
+					<div class="kart"><a href=""><img class="ust_resim" src="img/cekirdekler1.png" alt="">
+						<img class="alt_resim" src="img/kart1.png"></a><br>
+						<h3 class="kart_ad">TÜRK KAHVESİ</h3>
+					</div>
+					<div class="kart"><a href=""><img class="ust_resim" src="img/cekirdekler1.png" alt="">
+						<img class="alt_resim" src="img/kart2.png"></a><br>
+						<h3 class="kart_ad">KAKULELİ TÜRK KAHVESİ</h3>
+					</div>							
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="altı">
+		<div class="altı_sol">
+			<a class="abc1" href="">
+				<h2>En Beğenilen Kahve Hangisi? </h2>
+				<div class="altı_sol_ustustu"></div>
+				<div class="altı_sol_ust">
+					<img src="img/altı_resim3.jpg" alt="">
+				</div>
+			</a>
+			<a class="abc2" href="">
+				<h2>Kahve Demlemenin Püf Noktaları </h2>
+				<div class="altı_sol_altustu"></div>
+				<div class="altı_sol_alt">
+					<img src="img/altı_resim1.jpg" alt="">
+				</div>
+			</a>
+		</div>
+		<a href="" class="abc3">
+			<h2 id="">Tarihe Bir Bakış: Kahvenin Yolculuğu </h2>
+			<div class="altı_sagustu"></div>
+			<div class="altı_sag">
+				<img src="img/altı_resim6.jpg" alt="">
+			</div>
+		</a>
+	</div>
+
+
+
+
+
+	<div class="yedi">
+		<div class="yedi_yazi">
+			<h1>Blog Yazılarımız</h1>
+			<span>Kahvenin yolculuğundan, kahve dünyasından haberlere; kahve hakkında herşey.. </span>
+		</div>
+		<div class="yedi_container">
+			<div class="yedi_kart">
+				<a href="">
+					<div class="yedi_kart_yazisi">
+						<h3>Türk Kahvesinin Tarihteki Yolculuğu</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Quis consequuntur voluptatem fugiat dolorem saepe iusto, 
+							laborum inventore, odio illum, recusandae quisquam! 
+							Ducimus vel nostrum similique? Neque perferendis, 
+						assumenda cum necessitatibus.</p>
+					</div>
+					<div class="yedi_resim_ustu"></div>
+					<img src="img/yedi_resim1.jpg" alt="">
+				</a>
+			</div>
+			<div class="yedi_kart">
+				<a href="">
+					<div class="yedi_kart_yazisi">
+						<h3>Kahvenin Yanında Ne Yenir?</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Quis consequuntur voluptatem fugiat dolorem saepe iusto, 
+							laborum inventore, odio illum, recusandae quisquam! 
+							Ducimus vel nostrum similique? Neque perferendis, 
+						assumenda cum necessitatibus.</p>
+					</div>
+					<div class="yedi_resim_ustu"></div>
+					<img src="img/yedi_resim2.jpg" alt="">
+				</a>
+			</div>
+			<div class="yedi_kart">
+				<a href="">
+					<div class="yedi_kart_yazisi">
+						<h3>Türk Kahvesinin Tarihteki Yolculuğu</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Quis consequuntur voluptatem fugiat dolorem saepe iusto, 
+							laborum inventore, odio illum, recusandae quisquam! 
+							Ducimus vel nostrum similique? Neque perferendis, 
+						assumenda cum necessitatibus.</p>
+					</div>
+					<div class="yedi_resim_ustu"></div><img src="img/yedi_resim3.jpg" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="sekiz">
+		<section class="sekiz_ust_sec">
+			<div class="sekiz_sol_yazi"><p>Bizi Sosyal Medyada Takip Edin</p></div>
+			<div class="sekiz_sag_yazi"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i>instaadresiniz</a></div>
+		</section>
+		<section class="sekiz_alt_sec">
+			<div class="owl-carousel default-theme">
+				<div class="sekiz_kartlar"><img src="img/gloria1.jpg"></div>
+				<div class="sekiz_kartlar"><img src="img/gloria2.jpg"></div>
+				<div class="sekiz_kartlar"><img src="img/gloria3.jpg"></div>
+				<div class="sekiz_kartlar"><img src="img/gloria1.jpg"></div>
+				<div class="sekiz_kartlar"><img src="img/gloria3.jpg"></div>
+				<div class="sekiz_kartlar"><img src="img/gloria2.jpg"></div>
+			</div>
+		</section>
+	</div>
+
+	<div class="dokuz-katman1"></div>
+	<div class="dokuz-katman2"></div>
+	<div class="dokuz-katman3">
+		<div class="dokuz-ici1">
+			<div class="logo-bolumu">
+				<div class="dokuz-logo-resim"><img src="img/logoson1.png"></div>
+				<div><span>Bizimle İletişime Geçin</span></div><br>
+				<a href="" class="logo_a">İletişim Formu</a>
+			</div>
+		</div>
+
+		<div class="dokuz-ici2">
+			<div class="dokuz2-sol">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip commodo
+					consequat. Duis aute irure  in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+				<div>
+					<a href=""><i class="fab fa-facebook"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+					<a href=""><i class="fab fa-twitter"></i></a>
+					<a href=""><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+			<div class="dokuz2-sag">
+				<div class="dokuz2-sag-ici"><i class="fa fa-phone"></i>
+					<span>+90 (555) 55 55 55</span>
+				</div>
+				<div class="dokuz2-sag-ici"><i class="fa fa-map"></i><span>Biran Mahallesi 8720 Sk. No:87 Meram /Konya</span></div>
+				<div class="dokuz2-sag-ici"><i class="fa fa-envelope"></i><span>bilgi@epostadresiniz.com</span></div>
+			</div>
+		</div>
+
+		<div class="dokuz-ici3">
+			<span class="tasarim">Tasarım: Feel Medya&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yazılım: Bedirhan Kara</span>
+		</div>
+	</div>
+
+
+
+	<div id="mobilmenutamsayfa">
+		<div class="mobililk">
+			<input type="button" class="mobilekranmenu" onClick="gizleGoster()" /><i class="fa-solid fa-xmark-large"></i>
+			<button class="mobilekranmenu" onclick="gizleGoster2()"></button>
+
+			<div class="mobil-logo">
+				<a href=""><img src="img/logoson1.png"></a>
+			</div>
+
+
+			<div class="secenekler">
+				<nav class="">
+					<ul>
+						<a href=""><li>Anasayfa</li></a>
+						<a href=""><li>Hikayemiz</li></a>
+						<a href=""><li>Ürünler</li></a>
+						<a href=""><li>Blog</li></a>
+						<a href=""><li>İletişim</li></a>
+						<a href=""><li>Sipariş</li></a>
+					</ul>
+				</nav>
+			</div>
+
+
+			<div class="iletisim">
+				<a href="">
+					<i class="fa fa-phone"></i>&nbsp;&nbsp;
+					<span>+90 (555) 55 55 55</span>
+				</a>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+
+	<!-- animate on scroll kodu michealsnik -->
+	<script>
+		AOS.init();
+	</script>
+	<!-- animate on scroll kodu michealsnik -->
+
+
+	<!-- MOUSE DALGALANMA EFEKTİ  -->
+	<script type="text/javascript">
+		function clickEffect(e){
+			var d=document.createElement("div");
+			d.className="clickEffect";
+			d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
+			document.body.appendChild(d);
+			d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
+		}
+		document.addEventListener('click',clickEffect);
+	</script>
+	<!-- MOUSE DALGALANMA EFEKTİ  -->
+
+
+	<!-- mobil butona basınca açılan pencere  -->
+	<script>
+		function gizleGoster() {
+			var x = document.getElementById("mobilmenutamsayfa");
+			x.style.display = "block";
+		}
+		function gizleGoster2() {
+			var x = document.getElementById("mobilmenutamsayfa");
+			x.style.display = "none";
+		}
+
+	</script>
+	<!-- mobil butona basınca açılan pencere  -->
+
+
+
+	<!-- aşağı kaydırınca headerı küçülten kodlar  ( yeni açılan menü:  )  -->
+	<script>
+
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 150) {
+				$('body').addClass('fixed-bar');
+			} else {
+				$('body').removeClass('fixed-bar');
+			}
+
+
+		});
+	</script>
+	<!-- aşağı kaydırınca headerı küçülten kodlar  -->
+
+
+
+
+</body>
+
+</html>
