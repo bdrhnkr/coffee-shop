@@ -618,7 +618,7 @@
 
 }
 .yedi .yedi_kart:hover img{
-	transition: .4s ease-in-out;
+	transition: .2s ease-in-out;
 	transform: scale(1.1);
 }
 .yedi .yedi_kart:hover h3{
@@ -626,7 +626,7 @@
 	/*color: rgba(250, 250, 250, 0.95);*/
 }
 .yedi .yedi_kart:hover .yedi_resim_ustu{
-	transition: .4s ease-in-out;
+	transition: .2s ease-in-out;
 	opacity: 0.75;
 }
 /*     */
@@ -941,8 +941,6 @@ div.clickEffect{
 
 
 
-/*  RESPONSİVE AYARLAR    */
-/*@media screen and (min-width:500px) and (max-width:600px) {}*/
 
 
 @media screen and (min-width: 1650px) and (max-width:2000px){
@@ -1770,6 +1768,317 @@ div.clickEffect{
 	}
 
 
+	/*  BLOG   Hİ-İLK   */
+	.bl-ilk-ici1{
+		width: 100%;
+		height: 70vh;
+		position: absolute;
+		z-index: 1;
+		background: url("img/blog-bg2.jpeg") no-repeat center ;
+		background-size: cover;
+
+	}
+	/*  BLOG   Hİ-İLK   */
+	/* BLOG  İKİ   */
+
+	/* URUNLER İKİNCİ DİV  */
+
+	.bl-iki{
+		width: 100%;
+		height: 50vh;
+		background-color: #212120;
+		display: flex;
+		flex-direction: row;
+		padding: 75px 0;
+	}
+	.bl-iki-sol{
+		width: 20%;
+		height: 50vh;
+		flex-direction: column;
+		text-align: right;
+		padding-right: 5%;
+		margin: 0 auto;
+		margin-right: -2.5vw;
+		margin-bottom: 0;
+		float: right;
+	}
+	.bl-iki-sol h3{
+		font-size: 40px;
+		width: 100%;
+		margin-bottom: 3vh;
+		float: right;
+		text-align: left;
+		margin-bottom: 0;
+
+	}
+	.bl-iki-sol h2{
+		font-size: 50px;
+		text-align: left;
+		width: 100%;
+	}
+	.bl-iki-sag{
+		width: 45%;
+		height: 50vh;
+		justify-content: space-around;
+		flex-direction: row;	
+		margin: 0 auto;
+		float: left;
+		margin-left: -2.5vw;
+
+	}
+	.bl-iki-sag div{
+		height:30%;
+		width: 100%;
+		flex-direction: row;
+	}
+	.bl-iki-sag img{
+		height: 80px;
+		object-fit: contain;
+		background:black;
+		border:1px solid black;
+		border-radius: 50%;
+		margin-left: 1vw;
+	}
+	.bl-iki-sag p{
+	}
+
+	/* BLOG  İKİ   */
+
+
+	/*  BLOG YEDİ  */
+	.bl-yedi{
+		width: 100%;
+		height: 150vh;
+		background-color:rgba(81, 31, 0, 0.95);	
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10vh;
+	}
+	.bl-yedi .bl-yedi_container{
+		width: 85%;
+		height: 85vh;
+		display: flex;
+		box-sizing: border-box;
+		align-items: top;
+		justify-content: space-around;
+		margin: 0 9%;
+		padding-top: 10%;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.bl-yedi_yazi{
+		margin-top: -5vh;
+		margin-bottom: -15vh;
+		text-align: center;
+	}
+	.bl-yedi_yazi h1{
+		padding-top: 6%;
+		padding-bottom: 0;
+		font-family: 'Smooch Sans', sans-serif;
+		font-size: 6vh;
+	}
+
+
+	.bl-yedi_kart{
+		width: 31%;
+		height: 60vh;
+		background-color:rgba(81, 31, 0, 0.95);	
+		color: black;
+		overflow: hidden;
+		box-shadow: -10px 10px 30px #000;
+	}
+	.bl-yedi_kart img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.bl-yedi_resim_ustu{
+		width: 26.38%;
+		height: 60vh;
+		background-color: black;
+		opacity: 0.6;
+		position: absolute;
+		z-index: 2;
+	}
+	.bl-yedi_kart_yazisi{
+		position: absolute;
+		z-index: 3;
+		padding: 1% 2%;
+		width: 27%;
+	}
+	.bl-yedi_kart_yazisi h3{
+		font-size: 5vh;
+		font-family: 'Smooch Sans', sans-serif;
+		line-height: 6vh;
+		max-width: 30%;
+	}
+	.bl-yedi_kart_yazisi p{
+		margin-top: 5vh;
+		line-height: 4vh;
+		font-family: 'Smooch Sans', sans-serif;
+		font-size: 2.8vh;
+	}
+	.bl-yedi_kart:hover img{
+		transition: .2s ease-in-out;
+		transform: scale(1.1);
+	}
+	.bl-yedi_kart:hover h3{
+		text-shadow: 1px 1px 3px  rgb(81, 31, 0)
+		/*color: rgba(250, 250, 250, 0.95);*/
+	}
+	.bl-yedi_kart:hover .bl-yedi_resim_ustu{
+		transition: .2s ease-in-out;
+		opacity: 0.75;
+	}
+
+	/**/
+	.bl-yedi_kart1{
+		width: 31%;
+		height: 110vh;
+		background-color:rgba(81, 31, 0, 0.95);	
+		color: black;
+		overflow: hidden;
+		box-shadow: -10px 10px 30px #000;
+
+	}
+	.bl-yedi_kart1 img{
+		width: 100%;
+		object-fit: cover;
+		height: 100%;
+	}
+	.bl-yedi_resim_ustu1{
+		width: 26.38%;
+		height: 110vh;
+		background-color: black;
+		opacity: 0.6;
+		position: absolute;
+		z-index: 2;
+	}
+	.bl-yedi_kart_yazisi1{
+		position: absolute;
+		z-index: 3;
+		padding: 1% 2%;
+		width: 27%;
+		align-items: center;
+
+	}
+	.bl-yedi_kart_yazisi1 h3{
+		font-size: 5vh;
+		font-family: 'Smooch Sans', sans-serif;
+		line-height: 6vh;
+		max-width: 30%;
+		margin-top: 45%;
+	}
+	.bl-yedi_kart_yazisi1 p{
+		margin-top: 5vh;
+		line-height: 4vh;
+		font-family: 'Smooch Sans', sans-serif;
+		font-size: 2.8vh;
+	}
+	.bl-yedi_kart1:hover img{
+		transition: .2s ease-in-out;
+		transform: scale(1.1);
+	}
+	.bl-yedi_kart1:hover h3{
+		text-shadow: 1px 1px 3px  rgb(81, 31, 0)
+		/*color: rgba(250, 250, 250, 0.95);*/
+	}
+	.bl-yedi_kart1:hover .bl-yedi_resim_ustu1{
+		transition: .2s ease-in-out;
+		opacity: 0.75;
+	}
+	/**/
+	.bl-yedi .bl-yedi-container2{
+		width: 85%;
+		height: 100%;
+		display: flex;
+		box-sizing: border-box;
+		margin: 0 9%;
+	}
+	.bl-yedi_kart2{
+		width: 40%;
+		height: 45vh;
+		background-color:rgba(81, 31, 0, 0.95);	
+		color: black;
+		overflow: hidden;
+		box-shadow: -10px 10px 30px #000;
+	}
+	.bl-yedi_kart2 img{
+		width: 100%;
+		object-fit: cover;
+		height: 100%;
+	}
+	.bl-yedi_resim_ustu2{
+		width: 34%;
+		height: 45vh;
+		background-color: black;
+		opacity: 0.7;
+		position: absolute;
+		z-index: 2;
+	}
+	.bl-yedi_kart_yazisi2{
+		position: absolute;
+		z-index: 3;
+		padding: 1% 2%;
+		width: 15%;
+		align-items: center;
+
+	}
+	.bl-yedi_kart_yazisi2 h3{
+		font-size: 5vh;
+		font-family: 'Smooch Sans', sans-serif;
+		line-height: 6vh;
+		max-width: 30%;
+		margin-top: 15%;
+	}
+	.bl-yedi_kart_yazisi2 p{
+		margin-top: 5vh;
+		line-height: 4vh;
+		font-family: 'Smooch Sans', sans-serif;
+		font-size: 2.8vh;
+	}
+	.bl-yedi_kart2:hover img{
+		transition: .2s ease-in-out;
+		transform: scale(1.1);
+	}
+	.bl-yedi_kart2:hover h3{
+		text-shadow: 1px 1px 3px  rgb(81, 31, 0)
+		/*color: rgba(250, 250, 250, 0.95);*/
+	}
+	.bl-yedi_kart2:hover .bl-yedi_resim_ustu2{
+		transition: .2s ease-in-out;
+		opacity: 0.8;
+	}
+	/**/
+	.bl-yedi-kart3{
+		width: 23%;
+		height: 45vh;
+		background-color:rgba(81, 31, 0, 0.95);	
+		color: black;
+		overflow: hidden;
+		box-shadow: -10px 10px 30px #000;
+		margin-left: 2vw;
+	}
+	.bl-yedi-kart3 .bl-yedi_resim_ustu2{
+		width: 19.5%;
+		height: 45vh;
+		background-color: black;
+		opacity: 0.5;
+		position: absolute;
+		z-index: 2;
+	}
+	.bl-yedi-kart3 img{
+		object-fit: cover;
+	}
+
+	/* BLOG  YEDİ  */
+
+
+
+
+
+
+
 	.hi-header{
 		transition: .4s ease-in-out;	
 
@@ -1882,6 +2191,130 @@ div.clickEffect{
 	.hi-ilk .hi-ilk-ici2 .hi-ilk-yazi h3{
 		font-size: 45px;
 	}
+
+	/* URUNLER İLK DİV  */
+	.ur-ilk-ici1{
+
+
+		width: 100%;
+		height: 70vh;
+		position: absolute;
+		z-index: 1;
+		background: url("img/urunler-bg1.jpg") no-repeat center ;
+		background-size: cover;
+		-webkit-filter: blur(0.6px);
+	}
+	.ur-ilk-ici2{
+		width: 100%;
+		height: 70vh;
+		position: absolute;
+
+		z-index: 2;
+		float: left;
+		
+		/*background-color: blue;*/
+		background: rgba(0, 0, 0, 0.5);
+	}
+	/* URUNLER İLK DİV  */
+
+
+
+
+	/* URUNLER İKİNCİ DİV  */
+
+	.ur-iki{
+		width: 100%;
+		height: 82vh;
+		background-color: #212120;
+		display: flex;
+		flex-direction: row;
+		padding: 75px 0;
+		justify-content: space-around;
+	}
+	.ur-iki-sol{
+		width: 45%;
+		height: 50vh;
+		flex-direction: column;
+		text-align: right;
+	}
+	.ur-iki-sol h3{
+		font-size: 40px;
+		width: 50%;
+		float:right;
+		margin-bottom: 3vh;
+	}
+	.ur-iki-sol p{
+		width: 90%;
+		font-size: 20px;
+		float: right;
+		letter-spacing: 0.01px;
+		word-spacing: 0.01px;
+		line-height: 1.2;
+	}
+	.ur-iki-sag{
+		height: 50vh;
+		width: 45%;
+		flex-direction: column;	
+		justify-content: space-around;
+	}
+	.ur-iki-sag div{
+		height: 30%;
+		width: 100%;
+		flex-direction: row;
+		
+	}
+	.ur-iki-sag img{
+		height: 80px;
+		object-fit: contain;
+		background: rgb(50, 15, 0);
+		border:1px solid rgb(50, 15, 0);
+		border-radius: 50%;
+	}
+	.ur-iki-sag p{
+		font-size: 25px;
+		width: 85%;
+		text-align: left;
+		float: right;
+		padding-top: 30px;
+
+	}
+
+	/* URUNLER İKİNCİ DİV  */
+
+	
+
+	/* URUNLER DORTARKAPLAN  */ 
+	
+	/* URUNLER DORTARKAPLAN  */ 
+
+
+
+
+
+
+
+	
+
+	.hi-ilk .ur-ilk-ici2 .hi-ilk-yazi{
+		width: 100%;
+		margin-top:370px;
+		padding-left: 150px;
+		padding-right: 150px;
+
+		justify-content: space-between;
+		display: flex;
+		flex-direction: row;
+	}
+	.hi-ilk .ur-ilk-ici2 .hi-ilk-yazi span{
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.hi-ilk .ur-ilk-ici2 .hi-ilk-yazi h3{
+		font-size: 45px;
+	}
+
+
+
 	.hi-iki{
 		height: 100vh;
 		width: 100%;
@@ -2196,6 +2629,95 @@ div.clickEffect{
 		height: 70px;
 		width: 70px;
 	}
+
+
+
+	/*   ÜRÜNLER  DORTARKAPLAN  */
+	.dortarkaplan{
+		background-image:url(img/arkaplan.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+		float: left;
+		height: 900px;
+		width: 100%;
+	}
+	.bes{
+		padding-top: 5%;
+		background-color: rgba(255, 255, 255, 0.8);
+		width: 100%;
+		height: 900px;
+		float: left;
+	}
+	.kart{
+		margin-top: 25vh;
+		width: 80%;
+		max-height: 92vh;
+		margin-right: 12.5%;
+		margin-left: 12.5%;
+	}
+	.kart_ad{
+		text-align:center;
+		align-items: center;
+		color: black;
+		padding: 1vh 0;
+		font-weight: 800;
+		font-size: 35px;
+		margin-left: 10%;
+		margin-top: 15%;
+		font-family: 'Smooch Sans', sans-serif;
+		width: 80%;	
+	}
+	.ust_resim{
+		height: 200px;
+		margin-bottom: -120px;
+		object-fit: contain;
+		visibility: visible;
+		opacity: 0.01;
+		transform: scale(0.7);
+	}
+
+
+	/*  slider butonları  */
+	.owl-theme .owl-dots .owl-dot span {
+		width: 50px;
+
+	}
+	.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+		background-color:rgba(0, 0, 0, 0.8);
+	}
+	.owl-theme .owl-nav{
+		visibility: hidden;
+	}
+
+
+	.kart:hover > h3{
+		transition: .4s;
+		background-color: red;
+		color: white;
+		background-color: rgb(50, 15, 0);
+	}
+
+	.kart:hover .ust_resim{
+
+		transition: .4s ease-in-out;
+		opacity: 1;
+		transform: translate(0, -150px);
+		-webkit-transform: translate(0, -150px);
+
+	}
+	.kart:hover img{
+		transition: ease-in-out .3s;
+		transform: scale(1.1);
+	}
+
+	/*   ÜRÜNLER  DORTARKAPLAN  */
+
+
+
+
+
+
 	.dortarkaplan{	
 		height: 700px;
 	}
@@ -2426,12 +2948,234 @@ div.clickEffect{
 	}
 	.hi-he-mobilmenu{
 		margin-left: 0;
+		margin-right: 5vw;
 	}
 	.hi-ilk .hi-ilk-ici2 .hi-ilk-yazi {
 		flex-direction: column;
 		width:450px;
 		padding-left: 130px;
 	}
+
+	/* URUNLER UR-İLK   */
+	.hi-ilk .ur-ilk-ici2 .hi-ilk-yazi {
+		flex-direction: column;
+	}
+	/* URUNLER UR-İLK   */
+
+	/* URUNLER UR-İKİ   */
+	.ur-iki{
+		flex-direction: column;
+		height: 100vh;
+	}
+	.ur-iki-sol{
+		width: 95%;
+		padding:0;
+		margin: 0;
+		text-align: center;
+	}
+	.ur-iki-sol h3{
+		width: 95%;
+	}
+	.ur-iki-sag{
+		width: 95%;
+		flex-direction: row;	
+	}
+
+	.ur-iki-sag div{
+		max-width: 40%;
+		flex-direction: column;
+		height: 100px;
+		padding-top: 40px;
+		margin-left: 50px;
+		margin: 0 auto;
+
+
+		align-items: center;
+
+		text-align: justify;
+
+	}
+	.ur-iki-sag img{
+		height: 80px;
+	}
+
+	.ur-iki-sag p{
+		width: 50px;
+		padding-top: 15px;
+
+		font-size: 22px;
+	}
+	/* URUNLER UR-İKİ   */
+
+
+	/*  BLOG  İKİ  */
+
+	.bl-iki{
+		height: 60vh;
+		flex-direction: column;
+		padding: 75px 0;
+		padding-left: 20px;
+	}
+	.bl-iki-sol{
+		float: left;
+		width: 100%;
+		height: 20vh;
+		text-align: justify;
+		padding-right: 0;
+		margin-right: 0;
+	}
+
+	.bl-iki-sag{
+		width: 100%;
+		height: 30vh;
+	}
+	.bl-iki-sag div{
+		height:70%;
+	}
+	.bl-iki-sag img{
+		margin-top: 2.5vh;
+	}
+
+	/* BLOG  İKİ   */
+
+
+	/* BLOG   YEDİ  */
+	.bl-yedi{
+		flex-direction: column;
+		margin-bottom: 10vh;
+		padding-bottom: 10vh;
+		height: 250vh;
+	}
+	.bl-yedi_yazi{
+		width: 90%;
+		height: 10vh;
+		margin: 0 auto;
+	}
+
+	.bl-yedi_container{
+		flex-direction: column;
+		margin-top: 0;
+		height: 250vh;
+	}
+
+
+	.bl-yedi_kart{
+		width: 100%;
+		height: 40vh;
+		margin-top: 2vh;
+	}
+	.bl-yedi_kart img{
+		object-fit: cover;
+	}
+	.bl-yedi_resim_ustu{
+		height: 37.7vh;
+		width: 85%;
+	}
+	.bl-yedi_kart_yazisi{
+		width: 85%;
+		height: auto;
+		padding: 5%;
+	}
+	.bl-yedi_kart_yazisi h3{
+		line-height: 4vh;
+		font-size: 4vh;
+		max-width: 50%;
+	}
+	.bl-yedi_kart_yazisi p{
+		margin-top: 3vh;
+		font-size: 2.3vh;
+		line-height: 3vh;
+		max-width: 82%;
+	}
+
+
+	.bl-yedi_kart1{
+		width: 100%;
+		height: 40vh;
+		padding: 0;
+		margin: 0 auto;
+		margin-top: 2vh;
+	}
+	.bl-yedi_kart1 img{
+		object-fit: cover;
+	}
+	.bl-yedi_resim_ustu1{
+		height: 37.7vh;
+		width: 85%;
+	}
+	.bl-yedi_kart_yazisi1{
+		width: 85%;
+		height: auto;
+		padding: 5%;
+	}
+
+
+
+	.bl-yedi_kart_yazisi1 h3{
+
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.bl-yedi_kart_yazisi1 p{
+
+		font-size: 10px;
+		line-height: 10px;
+	}
+
+
+
+
+
+	/*.bl-yedi_container2{
+		flex-direction: column;
+		width: 100%;
+	}
+	.bl-yedi_kart2{
+		width: 100%;
+		height: 40vh;
+		margin-top: 2vh;
+	}
+	.bl-yedi_kart2 img{
+		object-fit: cover;
+		width: 100%;
+	}
+	.bl-yedi-kart3{
+		width: 100%;
+		height: 40vh;
+
+		margin-top: 2vh;
+	}
+	.bl-yedi_kart_yazisi2{
+		width: 100%;
+	}
+	.bl-yedi_kart_yazisi1 p{
+		margin-top: 3vh;
+		font-size: 2.3vh;
+		line-height: 3vh;
+		width: 82%;
+	}
+	.bl-yedi_kart_yazisi1{
+		width: 100%;
+	}
+	.bl-yedi_resim_ustu1
+	{
+		width: 100%;
+		height: 40vh;
+	}
+	.bl-yedi_resim_ustu3{
+		width: 100%;
+		height: 40vh;
+	}
+	.bl-yedi_resim_ustu2{
+		width: 100%;
+		height: 40vh;
+	}*/
+
+	/* BLOG   YEDİ  */
+
+
+
+
 
 
 	.fixed-bar .hi-header{
@@ -3164,7 +3908,7 @@ div.clickEffect{
 	.yedi .yedi_kart_yazisi{
 		width: 100%;
 		height: auto;
-		padding: 8% 4%;
+		padding: 15% 4%;
 	}
 	.yedi .yedi_kart_yazisi h3{
 		line-height: 4vh;
@@ -3178,8 +3922,16 @@ div.clickEffect{
 		max-width: 82%;
 	}
 
+	/* URUNLER SEKİZ  */ 
+	.hi-sekiz{
+		height: 70vh;
+		margin-bottom: 15vh;
 
-
+	}
+	/* URUNLER SEKİZ  */ 
+	.ur-sekiz{
+		padding-top: 10vh;
+	}
 	/*  HİKAYEMİZ SEKİZ  */
 
 	.hi-sekiz{
