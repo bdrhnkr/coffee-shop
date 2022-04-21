@@ -1940,6 +1940,7 @@ div.clickEffect{
 		overflow: hidden;
 		box-shadow: -10px 10px 30px #000;
 
+
 	}
 	.bl-yedi_kart1 img{
 		width: 100%;
@@ -1988,6 +1989,14 @@ div.clickEffect{
 		opacity: 0.75;
 	}
 	/**/
+
+
+
+	.bl-yedi_kartpc{
+		display: none;
+	}
+
+
 	.bl-yedi .bl-yedi-container2{
 		width: 85%;
 		height: 100%;
@@ -3042,9 +3051,9 @@ div.clickEffect{
 	/* BLOG   YEDİ  */
 	.bl-yedi{
 		flex-direction: column;
-		margin-bottom: 10vh;
+		margin-bottom: 0;
 		padding-bottom: 10vh;
-		height: 250vh;
+		height: 230vh;
 	}
 	.bl-yedi_yazi{
 		width: 90%;
@@ -3055,7 +3064,7 @@ div.clickEffect{
 	.bl-yedi_container{
 		flex-direction: column;
 		margin-top: 0;
-		height: 250vh;
+		height: 100vh;
 	}
 
 
@@ -3095,6 +3104,7 @@ div.clickEffect{
 		padding: 0;
 		margin: 0 auto;
 		margin-top: 2vh;
+		display: none;
 	}
 	.bl-yedi_kart1 img{
 		object-fit: cover;
@@ -3123,53 +3133,150 @@ div.clickEffect{
 	}
 
 
+	.bl-yedi_kartpc{
+		width: 85%;
+		min-height: 40vh;
+		margin: 0 auto;
+		margin-left: 5vh;
+		margin-top: 2vh;
+		display: block;
+		background: rgb(81,31,0);
+		overflow: hidden;
+		box-shadow: -10px 10px 30px #000;
+		float: left;  /* opsiyonel  */
+		
 
-
-
-	/*.bl-yedi_container2{
-		flex-direction: column;
-		width: 100%;
 	}
+	.bl-yedi_kartpc img{
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+	.bl-yedi_resim_ustupc{
+		height: 40vh;
+		width: 85%;
+		opacity: 0.6;
+		position: absolute;
+		background: black;
+		z-index: 2;
+	}
+	.bl-yedi_kart_yazisipc{
+		width: 85%;
+		height: auto;
+		padding: 5%;
+		position: absolute;
+		z-index: 3;
+		align-items: center;
+	}
+	.bl-yedi_kart_yazisipc h3{
+		line-height: 4vh;
+		font-size: 4vh;
+		max-width: 50%;
+	}
+	.bl-yedi_kart_yazisipc p{
+		margin-top: 3vh;
+		font-size: 2.3vh;
+		line-height: 3vh;
+		max-width: 82%;
+	}
+
+	.bl-yedi_kartpc:hover img{
+		transition: .2s ease-in-out;
+		transform: scale(1.1);
+	}
+	.bl-yedi_kartpc:hover h3{
+		text-shadow: 1px 1px 3px  rgb(81, 31, 0)
+		/*color: rgba(250, 250, 250, 0.95);*/
+	}
+	.bl-yedi_kartpc:hover .bl-yedi_resim_ustupc{
+		transition: .2s ease-in-out;
+		opacity: 0.75;
+	}
+
+
+	/*   BL - yedi - container 2  */
+
+	.bl-yedi-container2{
+		height: auto;
+		flex-direction: column;
+	}
+
 	.bl-yedi_kart2{
 		width: 100%;
 		height: 40vh;
+		margin: 0 auto;
 		margin-top: 2vh;
-	}
-	.bl-yedi_kart2 img{
-		object-fit: cover;
-		width: 100%;
+		display: block;
+		background: blue;
+		overflow: hidden;
+		box-shadow: -10px 10px 30px #000;
 	}
 	.bl-yedi-kart3{
 		width: 100%;
 		height: 40vh;
-
+		margin: 0 auto;
 		margin-top: 2vh;
+		display: block;
+		background: blue;
+		overflow: hidden;
+		box-shadow: -10px 10px 30px #000;
+		float: left;  /* opsiyonel  */
+	}
+
+	.bl-yedi_kart2 img{
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+	.bl-yedi_resim_ustu2{
+		height: 40vh;
+		width: 85%;
+		opacity: 0.6;
+		position: absolute;
+		background: black;
+		z-index: 2;
+	}
+	.bl-yedi-kart3 .bl-yedi_resim_ustu2{
+		height: 40vh;
+		width: 85%;
+		opacity: 0.6;
+		position: absolute;
+		background: black;
+		z-index: 2;
 	}
 	.bl-yedi_kart_yazisi2{
-		width: 100%;
+		width: 85%;
+		height: auto;
+		padding: 5%;
+		position: absolute;
+		z-index: 3;
+		align-items: center;
 	}
-	.bl-yedi_kart_yazisi1 p{
+	.bl-yedi_kart_yazisi2 h3{
+		line-height: 4vh;
+		font-size: 4vh;
+		max-width: 50%;
+	}
+	.bl-yedi_kart_yazisi2 p{
 		margin-top: 3vh;
 		font-size: 2.3vh;
 		line-height: 3vh;
-		width: 82%;
+		max-width: 82%;
 	}
-	.bl-yedi_kart_yazisi1{
-		width: 100%;
+
+	.bl-yedi_kart2:hover img{
+		transition: .2s ease-in-out;
+		transform: scale(1.1);
 	}
-	.bl-yedi_resim_ustu1
-	{
-		width: 100%;
-		height: 40vh;
+	.bl-yedi_kart2:hover h3{
+		text-shadow: 1px 1px 3px  rgb(81, 31, 0)
+		/*color: rgba(250, 250, 250, 0.95);*/
 	}
-	.bl-yedi_resim_ustu3{
-		width: 100%;
-		height: 40vh;
+	.bl-yedi_kart2:hover .bl-yedi_resim_ustu2{
+		transition: .2s ease-in-out;
+		opacity: 0.75;
 	}
-	.bl-yedi_resim_ustu2{
-		width: 100%;
-		height: 40vh;
-	}*/
+	/*   BL - yedi - container 2  */
 
 	/* BLOG   YEDİ  */
 
